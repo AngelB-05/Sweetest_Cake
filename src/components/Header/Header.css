@@ -1,0 +1,72 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ffd66d2b; */
+  background-color: #a5a5a568;
+  border-bottom: 1px #fff solid;
+  position: fixed;
+  width: 80%;
+  height: 70px;
+  z-index: 200;
+  backdrop-filter: blur(2px);
+}
+
+.logo {
+  /* place-items: center; */
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 30px;
+  border-radius: 5px;
+  transform: rotate(-19.6deg);
+}
+
+.logo img {
+}
+
+.logo a {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  font-family: "Fascinate", system-ui;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 20px;
+}
+
+.header-links {
+  display: flex;
+  flex-flow: row;
+  gap: 18px;
+  /* border: solid blue 1px; */
+  margin-top: 25px;
+  width: fit-content;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-links li {
+  list-style-type: none;
+}
+
+.header-links a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit; /* Hereda el color del texto del padre */
+  text-decoration: none; /* Elimina subrayado en todos los estados */
+  cursor: pointer; /* Mantiene el cursor de tipo "mano" (opcional) */
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #000000;
+}
